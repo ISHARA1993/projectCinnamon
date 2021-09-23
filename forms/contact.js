@@ -18,7 +18,7 @@ function sendmail() {
   };
 
   emailjs
-    .send("service_linxr6j", "template_17n5jxs", contactParams)
+    .send("service_linxr6j", "template_bjwq4ar", contactParams)
     .then(function (res) {});
 }
 

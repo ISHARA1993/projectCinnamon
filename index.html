@@ -1050,8 +1050,10 @@
               <div class="form-row">
                 <div class="col-md-6 form-group">
                     <input 
+                      
                       class="form-control" 
-                      type="text" id="name" name="fullname"   
+                      type="text" id="name" name="name" 
+
                       placeholder="Your Name"
                       data-rule="minlen:4"
                       data-msg="Please enter at least 4 chars">
@@ -1105,7 +1107,7 @@
                   </div>
 
                   <div class="text-center">
-                    <button onsubmit="sendmail()" type="submit">Send Message</button>
+                    <button onclick="sendmail()" type="button">Send Message</button>
                   </div>
                    
             </form>
